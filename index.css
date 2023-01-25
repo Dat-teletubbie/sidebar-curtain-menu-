@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+.sidebar{
+  
+  background-color: blue;
+  width: 0;
+  height: 100vh;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: 0.4s;
+}
+
+.sidebar a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 10px 10px 40px;
+    font-size: 1.6rem;
+    color: #fff;
+    transition: 0.5;
+
+}
+.mainpage{
+  margin-left: 0px;
+  
+  padding-left: 20px;
+  
+}
+.closebtn{
+    text-align: end;
+    
+    
+}
+.textotherthansidebar{
+  display: flex;
+  gap: 20px;
+  font-size: large;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.ham{
+font-size:larger;
+  color: blueviolet;
+}
+.ham:hover{
+ background-color: black;
+}
+main{
+  transition:0.5s;
+  padding: 16px;
+}
